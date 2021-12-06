@@ -21,7 +21,7 @@ const handleSubmit=(e)=>{
             <h1>ToDO App</h1>
             <form onSubmit={handleSubmit}>
                 <input type="text" value={newTask} onChange={handleInput} />
-                <button type="input">Add</button>
+                <button type="submit">Add</button>
             </form>
         </div>
     )
